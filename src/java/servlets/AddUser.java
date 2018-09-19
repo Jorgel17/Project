@@ -21,7 +21,6 @@ import writers.UserWriter;
 
 /**
  *
- * @author hallgeir
  */
 @WebServlet(name = "AddUser", urlPatterns = {"/AddUser"})
 public class AddUser extends HttpServlet {
