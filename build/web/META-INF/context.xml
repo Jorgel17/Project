@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Project">
+    <!-- HN: Definerer DataSource for databasen, her mariadb x| 
+	-->
+	
+	<Resource name="jdbc/localhostDS" type="javax.sql.DataSource" auth="Container" 
+    username="root" password="root123" driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/Project">
+</Resource>			   
+	
+	
+</Context>
